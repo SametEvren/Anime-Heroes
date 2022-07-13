@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 9-Dio(Za Warudo)
   m_EditorClassIdentifier: 
   id: 9
-  name: DIO(ZA WARUDO)
+  name: DIO (TW)
   artwork: {fileID: 21300000, guid: 5de68a51f6a34f74e85658c7c6e2aa1a, type: 3}
   damage: 25
   health: 60

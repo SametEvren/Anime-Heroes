@@ -52,16 +52,16 @@ public class DropSelected : MonoBehaviour,IPointerEnterHandler,IPointerExitHandl
                         CharacterManager.instance.draggingCharacter.GetComponent<CharacterSelectionUI>().SelectOne(4);
                 }
             }
-            // else
-            // {
-            //     if (CharacterManager.instance.draggingCharacter != null)
-            //     {
-            //         CharacterManager.instance.draggingCharacter.GetComponent<CharacterSelectionUI>().SelectOne(Convert.ToInt16(CharacterManager.instance.selectionCountForMobile));
-            //         CharacterManager.instance.selectionCountForMobile += 0.25f;
-            //         if (CharacterManager.instance.selectionCountForMobile == 5)
-            //             CharacterManager.instance.selectionCountForMobile = 0;
-            //     }
-            // }
+            else
+            {
+                if (CharacterManager.instance.draggingCharacter != null)
+                {
+                    CharacterManager.instance.draggingCharacter.GetComponent<CharacterSelectionUI>().SelectOne(Convert.ToInt16(CharacterManager.instance.selectionCountForMobile));
+                    CharacterManager.instance.selectionCountForMobile += 0.25f;
+                    if (CharacterManager.instance.selectionCountForMobile == 5)
+                        CharacterManager.instance.selectionCountForMobile = 0;
+                }
+            }
         }
     }
 }

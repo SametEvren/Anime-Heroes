@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 17-FF
   m_EditorClassIdentifier: 
   id: 17
-  name: FF
+  name: F.F.
   artwork: {fileID: 21300000, guid: d680218e7860efa4288a7b96e1a92f38, type: 3}
   damage: 13
   health: 44
